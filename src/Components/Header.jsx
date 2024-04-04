@@ -39,7 +39,7 @@ export const Header = () => {
             className="flex items-center space-x-3 rtl:space-x-reverse"
           >
             <img src={Logo} className="h-10 " alt="Movie Logo" />
-            <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+            <span className="self-center md:text-2xl font-semibold whitespace-nowrap dark:text-white">
               MovieMadHouse
             </span>
           </NavLink>
