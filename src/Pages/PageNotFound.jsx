@@ -1,8 +1,12 @@
 import { Link } from "react-router-dom";
 
 import PagenotFound from "../assets/images/pagenot.jpg";
+import { useEffect } from "react";
 
 export const PageNotFound = () => {
+  useEffect(() => {
+    document.title = `Page Not Found / MovieMadHouse`;
+  });
   return (
     <main>
       <section className="flex flex-col justify-center px-2">

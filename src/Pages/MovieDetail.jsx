@@ -21,10 +21,13 @@ export const MovieDetail = () => {
       );
       const json = await response.json();
       setMovie(json);
-      console.log(json);
     }
     fetchMovie();
   }, [params.id]);
+
+  useEffect(() => {
+    document.title = `${movie.title} / MovieMadHouse`;
+  });
 
   return (
     <main>

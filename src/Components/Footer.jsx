@@ -8,7 +8,7 @@ export const Footer = () => {
           <span className="text-sm   text-gray-500 sm:text-center dark:text-gray-400">
             © 2024{" "}
             <Link to="/" className="hover:underline">
-              Flowbite™
+              MovieMadHouse™
             </Link>
             . All Rights Reserved. Developed by{" "}
             <Link
